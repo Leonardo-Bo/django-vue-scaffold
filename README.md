@@ -12,7 +12,7 @@ The script performs the following steps:
     - `django rest framework`
     - `psycopg2-binary`
     - `gunicorn`
-5. create a backend folder with a custom `settings.py` file, a templates folder with `base.html` and `index.html` and an empty static folder
+5. create a backend folder with a custom `settings.py`, `urls.py` files, a templates folder with `base.html` and `index.html` and an empty static folder
 6. create a frontend folder with `vue-cli` and edit the files:
 	- `public/index.html`
 	- `vue-config.js`
