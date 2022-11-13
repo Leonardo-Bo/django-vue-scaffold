@@ -8,7 +8,7 @@ module.exports = defineConfig({
     devServer: {
         devMiddleware:{
             writeToDisk : filePath => filePath.endsWith("index.html"),
-            headers: {"Acess-Control-Allow-Origin": "*"},
+            headers: {"Access-Control-Allow-Origin": "*"},
             // publicPath: "http://localhost:8080",
             // publicPath: process.env.NODE_ENV === 'production' ? '/static/dist/' : 'http://127.0.0.1:8080'
         },
