@@ -1,0 +1,16 @@
+{
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": "./venv/bin/python",
+    "python.pythonPath": "./venv/bin/python",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--django-settings-module = trydjango.settings"
+    ],
+    "emmet.includeLanguages": {
+        "django-html": "html"
+   },
+   "vetur.validation.template": false,
+   "vetur.validation.script": false,
+   "vetur.validation.style": false,
+}

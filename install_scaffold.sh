@@ -66,5 +66,7 @@ npm install axios
 npm install -D sass-loader sass
 cd ../
 
+cp -r ${BASE_DIR}/.vscode .
+
 git add . 
 git commit -m "created project with django-vue-scaffold"
